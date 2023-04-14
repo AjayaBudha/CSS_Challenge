@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+header {
+  background-color: lightblue;
+  grid-column: 1/4;
+}
+.box1 {
+  background-color: cadetblue;
+
+  margin: 0% 5% 0% 0%;
+}
+.box2 {
+  background-color: gold;
+  margin: 0% 0% 0% 5%;
+}
+
+.box3 {
+  background-color: orange;
+  padding: 20% 25%;
+  grid-column: 2/4;
+}
+
+article {
+  background-color: lightpink;
+  grid-column: 1;
+  grid-row: 2/4;
+}

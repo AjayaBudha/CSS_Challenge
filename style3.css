@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  height: 600px;
+}
+
+header {
+  background-color: lightblue;
+  height: 100px;
+}
+.box2 {
+  background-color: lightpink;
+
+  width: 70%;
+}
+
+.box3 {
+  background-color: cadetblue;
+
+  width: 30%;
+}
+
+footer {
+  background-color: darkgray;
+  height: 100px;
+}

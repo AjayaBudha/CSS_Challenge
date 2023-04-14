@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+}
+
+header {
+  background-color: lightblue;
+  height: 100px;
+}
+.box1 {
+  background-color: cadetblue;
+  height: 600px;
+  width: 50%;
+}
+
+.box2 {
+  background-color: orange;
+  width: 50%;
+}
+footer {
+  background-color: darkgray;
+  height: 100px;
+}
